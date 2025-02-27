@@ -1,0 +1,26 @@
+-> Configura o PC com o email responsavel pelo código 
+git config --global user.name "Aquiles Pedro Sanches"
+git config --global user.email "aquiles.sanches@fatec.sp.gov.br"
+
+->navegando no cmd 
+cd nome-da-pasta     // entra em uma pasta
+cd ..               // volta uma pasta
+cd /               // vai para o c:
+
+-> Inicializa um repositório git (Utilizado apenas uma vez)
+git init
+
+-> Verifica o status do repositório 
+git status
+
+-> Adicionar novos arquivos no git para versionar
+git add .
+
+-> Salva uma versão dos arquivos
+git commit -m "Porque estou salvando???"
+
+-> Envia informação do computador para o GitHub
+git push
+
+-> Baixa a atualização de arquivos do github para uma pasta já existente
+git pull
